@@ -32,19 +32,19 @@ var x = setInterval(function() {
 
 	// If the timer for a period has expired, show "Time's up!"
 	if (remaining1 < 0) {
-		document.getElementById("countdown1").innerHTML = "Time's up!";
+		document.getElementById("countdown1").innerHTML = "Laiks pauzei!";
 	}
 	if (remaining2 < 0) {
-		document.getElementById("countdown2").innerHTML = "Time's up!";
+		document.getElementById("countdown2").innerHTML = "Laiks pauzei!";
 	}
 	if (remaining3 < 0) {
-		document.getElementById("countdown3").innerHTML = "Time's up!";
+		document.getElementById("countdown3").innerHTML = "Pusdienas!";
 	}
 	if (remaining4 < 0) {
-		document.getElementById("countdown4").innerHTML = "Time's up!";
+		document.getElementById("countdown4").innerHTML = "Laiks pauzei!";
 	}
 	if (remaining5 < 0) {
-		document.getElementById("countdown5").innerHTML = "Time's up!";
+		document.getElementById("countdown5").innerHTML = "Paldies par darbu!";
 	}
 }, 1000);
 
