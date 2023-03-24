@@ -38,7 +38,7 @@ var x = setInterval(function() {
 		document.getElementById("countdown2").innerHTML = "Laiks pauzei!";
 	}
 	if (remaining3 < 0) {
-		document.getElementById("countdown3").innerHTML = "Pusdienas!";
+		document.getElementById("countdown3").innerHTML = "Pusdienas! Labu apetīti!";
 	}
 	if (remaining4 < 0) {
 		document.getElementById("countdown4").innerHTML = "Laiks pauzei!";
