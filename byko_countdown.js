@@ -44,7 +44,7 @@ var x = setInterval(function() {
 		document.getElementById("countdown4").innerHTML = "Laiks pauzei!";
 	}
 	if (remaining5 < 0) {
-		document.getElementById("countdown5").innerHTML = "Paldies par darbu!";
+		document.getElementById("countdown5").innerHTML = "Paldies par darbu! Drīz tiksimies!";
 	}
 }, 1000);
 
